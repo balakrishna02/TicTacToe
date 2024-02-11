@@ -12,8 +12,8 @@
 
     background-color: rgb(139, 55, 181);
     color: white;
-    height: 4vw;
-    font-size: 3vw;
+    height: 4rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,19 +30,19 @@
     display: flex;
     justify-content: center;
     align-items: top;
-    padding: 3vw;
+    padding: 3rem;
 }
 
 
 .container{
     display: grid;
-    grid-template-rows: repeat(3, 10vw);
-    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 5rem);
+    grid-template-columns: repeat(3, 5rem);
 }
 
 .box{
     border: 2px solid black;
-    font-size: 8vw;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@
 
 .gameinfo{
     /* padding: 0 34px; */
-    margin: 2vw;
+    margin: 2rem;
 
 }
 
@@ -92,14 +92,14 @@
 
 .result-box {
 
-    margin-top: 10vw;
+    margin-top: 3rem;
     text-align: center;
     /* padding: 10vw; */
 }
 
 .result-msg {
 
-    font-size: 9vw;
+    font-size: 4rem;
     padding: 1rem;
     display: inline;
     justify-content: center;
@@ -116,17 +116,17 @@
 
 
 .info {
-    font-size: 3vw;
-    margin: 3vw;
+    font-size: 3rem;
+    margin: 3rem;
 }
 
 
 
 #reset-btn {
-    margin: 2vw;
-    font-size: 3vw;
-    border-radius: 1vw;
-    border-width: 1vw;
+    margin: 2rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border-width: 1rem;
     margin: 2vw;
     background-color: #6686e0;
     color: white;
@@ -150,8 +150,8 @@
     align-items: center;
     background-color: rgb(0, 0, 0);
     color: white;
-    border-radius: 1vw;
-    font-size: 8vw;
+    border-radius: 1rem;
+    font-size: 4rem;
     border-color: black;
     border-width: 20vw;
 }
@@ -159,7 +159,7 @@
 #newGame-msg:active {
 
     background-color: rgb(241, 152, 43);
-    box-shadow: 20rem;
+    /* box-shadow: 20rem; */
 }
 
 #newGame-msg:hover{

@@ -9,14 +9,18 @@ const change = () => {
 
     if(currMode === "light"){
 
-        currMode = "dark";
-        body.classList.add("dark");
-        body.classList.remove("light");
-    }
-    else{
-        currMode = "light";
         body.classList.add("light");
         body.classList.remove("dark");
+        mode.innerText = "light";
+        currMode = "dark";
+    }
+    else{
+        
+        body.classList.add("dark");
+        body.classList.remove("light");
+        mode.innerText = "dark";
+        currMode = "light";
+        
     }
 }
 
