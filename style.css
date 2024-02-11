@@ -58,11 +58,6 @@
 
 }
 
-.reset {
-    margin: 2vw;
-    font-size: 2vw;
-}
-
 .bt-0 {
     border-top: none;
 }
@@ -77,4 +72,101 @@
 
 .bl-0 {
     border-left: none;
+}
+
+
+.light {
+    background-color: black;
+    color: white;
+    /* .gamecontainer {
+        background-color: red;
+    } */
+}
+
+.dark {
+    background-color: white;
+    color: black;
+}
+
+
+
+.result-box {
+
+    margin-top: 10vw;
+    text-align: center;
+    /* padding: 10vw; */
+}
+
+.result-msg {
+
+    font-size: 9vw;
+    padding: 1rem;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 1rem;
+    
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.info {
+    font-size: 3vw;
+    margin: 3vw;
+}
+
+
+
+#reset-btn {
+    margin: 2vw;
+    font-size: 3vw;
+    border-radius: 1vw;
+    border-width: 1vw;
+    margin: 2vw;
+    background-color: #6686e0;
+    color: white;
+    border-color: rgb(179, 224, 240);
+} 
+
+#reset-btn :active{
+    background-color: #67998d;
+    box-shadow: 2rem;
+    border-width: 1vw;
+}
+
+.newGame {
+    margin: 5vw;
+    text-align: center;
+}
+
+#newGame-msg {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 1vw;
+    font-size: 8vw;
+    border-color: black;
+    border-width: 20vw;
+}
+
+#newGame-msg:active {
+
+    background-color: rgb(241, 152, 43);
+    box-shadow: 20rem;
+}
+
+#newGame-msg:hover{
+    cursor: pointer;
+}
+
+
+.show {
+    display: block; /* or any other appropriate display property */
 }
